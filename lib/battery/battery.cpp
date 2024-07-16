@@ -1,5 +1,3 @@
-// C++ code
-//
 #define BATTERY_PIN A0
 #define R1 100000.00
 #define R2 56000.00
