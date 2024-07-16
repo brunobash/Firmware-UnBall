@@ -16,11 +16,11 @@ void loop()
 {
   int sensorValue = analogRead(BATTERY_PIN);
   
-  // Calculo do voltagem da bateria
+  // Calculo do tensão da bateria
   float voltage = sensorValue * (5.0 / 1023.0) * ((R1+R2) / R2);
   
  
-  Serial.print("Voltagem: ");
+  Serial.print("Tensão: ");
   Serial.print(voltage);
   Serial.println(" V");	
   
