@@ -38,4 +38,6 @@ void loop()
 
 }
 
-/*problema de permissao é só dar um chmod 777 /dev/ttyUSB0c*/
+/*
+problema de permissao é só dar um chmod 777 /dev/ttyUSB0
+*/
