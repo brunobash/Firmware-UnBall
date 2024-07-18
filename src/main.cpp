@@ -22,6 +22,8 @@ void setup() {
 
 	Motor::setup();
 
+	
+
 }
 
 void loop() {
